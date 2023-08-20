@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <script src="drumkit.js" defer></script>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Drumkit</title>
+</head>
+
+<body>
+  <!-- generating these would be much more manageable, 
+       do that in a different iteration -->
+  <div class="keys">
+    <div data-key="z" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">kick<span>
+    </div>
+    <div data-key="x" class="key">
+      <kbd>X</kbd>
+      <span class="sound">snare1</span>
+    </div>
+    <div data-key="c" class="key">
+      <kbd>C</kbd>
+      <span class="sound">kick2</span>
+    </div>
+    <div data-key="v" class="key">
+      <kbd>V</kbd>
+      <span class="sound">low-tom</span>
+    </div>
+    <div data-key="a" class="key">
+      <kbd>A</kbd>
+      <span class="sound">snare2</span>
+    </div>
+    <div data-key="s" class="key">
+      <kbd>S</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="d" class="key">
+      <kbd>D</kbd>
+      <span class="sound">closed-hh</span>
+    </div>
+    <div data-key="f" class="key">
+      <kbd>F</kbd>
+      <span class="sound">mid-tom</span>
+    </div>
+    <div data-key="q" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">crash</span>
+    </div>
+    <div data-key="w" class="key">
+      <kbd>W</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="e" class="key">
+      <kbd>E</kbd>
+      <span class="sound">open-hh</span>
+    </div>
+    <div data-key="r" class="key">
+      <kbd>R</kbd>
+      <span class="sound">high-tom</span>
+    </div>
+  </div>
+
+  <audio data-key="z" src="sounds/Kick 808 2.wav"></audio>
+  <audio data-key="x" src="sounds/Snare 808.wav"></audio>
+  <audio data-key="c" src="sounds/Kick 808 2.wav"></audio>
+  <audio data-key="v" src="sounds/Tom 909 Low.wav"></audio>
+  <audio data-key="a" src="sounds/Snare 808 Tone 3r.wav"></audio>
+  <audio data-key="s" src="sounds/Clap 707.wav"></audio>
+  <audio data-key="d" src="sounds/HihatClosed 808.wav"></audio>
+  <audio data-key="f" src="sounds/Tom 909 Mid.wav"></audio>
+  <audio data-key="q" src="sounds/Crash 909.wav"></audio>
+  <audio data-key="w" src="sounds/Ride 909.wav"></audio>
+  <audio data-key="e" src="sounds/Hihat Open 808.wav"></audio>
+  <audio data-key="r" src="sounds/Tom 909 Hi.wav"></audio>
+</body>
+
+
+</html>
