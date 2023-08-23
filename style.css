@@ -1,0 +1,55 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-image: url("./technobg.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+.keys {
+	margin-top: 25vh;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.key-row {
+	display: flex;
+	justify-content: center;
+	align-igmes: center;
+	gap: 30px;
+}
+
+.key {
+	border: 3px solid black;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.4);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100px;
+	height: 100px;
+	transition: 0.07s;
+}
+
+.playing {
+	transform: scale(1.1);
+	border-color: #edba2e;
+	box-shadow: 0 0 10px #ffc600;
+}
+
+kbd {
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+}
+
+span {
+	color: #edba2e;
+}
